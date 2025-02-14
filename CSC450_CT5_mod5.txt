@@ -1,0 +1,15 @@
+Please be sure to append your data to this text file.
+
+If these first three lines are deleted, then your program is not functioning as expected.
+
+
+hello there mister!
+hello there!
+
+!ereht olleh
+!retsim ereht olleh
+
+
+.detcepxe sa gninoitcnuf ton si margorp ruoy neht ,deteled era senil eerht tsrif eseht fI
+
+.elif txet siht ot atad ruoy dneppa ot erus eb esaelP
