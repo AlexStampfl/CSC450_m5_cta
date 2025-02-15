@@ -53,7 +53,7 @@ void reverse() {
     std::reverse(fileContent.begin(), fileContent.end());
 
     // Open output file for writing
-    std::ofstream outputFile("CSC450_CT5_mod5.txt", std::ios::app); //append
+    std::ofstream outputFile("CSC450-mod5-reverse.txt"); // Create new reverse file
 
     if (!outputFile) {
         std::cerr << "Error: Unable to open output file.\n";
@@ -67,3 +67,6 @@ void reverse() {
 
     std::cout << "Reversed content appended to output file.";
 }
+
+
+
