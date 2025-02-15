@@ -49,6 +49,12 @@ void reverse() {
     }
     inputFile.close();
 
+    // Check if file is empty
+    if (fileContent.empty()) {
+        std::cerr << "Warning: Input file is empty. Nothing to reverse.\n";
+        return;
+    }
+
     // reverse string
     std::reverse(fileContent.begin(), fileContent.end());
 
@@ -65,7 +71,7 @@ void reverse() {
 
     outputFile.close();
 
-    std::cout << "Reversed content appended to output file.";
+    std::cout << "Reversed content saved to CSC450-mod5-reverse.txt.\n";
 }
 
 
